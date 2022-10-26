@@ -1,4 +1,4 @@
-.container{
+/* .container{
     background-color: dodgerblue;
     display: flex;
     justify-content: center;
@@ -18,9 +18,57 @@
 
 #one{
     flex-shrink: 2;
+} */
+
+body {
+    display: flex;
+    flex-wrap: wrap;
 }
-
-
 p{
     background-color: red;
 }
+
+header {
+    background-color: lightblue;
+    flex-basis: 100%;
+  }
+  main {
+    background-color: gray;
+    flex-basis: 500px;
+    flex-grow: 1;
+    order: 2;
+  }
+  
+  nav {
+    background-color: teal;
+    flex-basis: 200px;
+    flex-grow: 1;
+    order: 1;
+  }
+  aside {
+    background-color: green;
+    flex-basis: 200px;
+    flex-grow: 1;
+    order: 3;
+  }
+  footer {
+    background-color: pink;
+    flex-basis: 100%;
+    justify-content: center;
+    order: 4;
+    
+  } 
+
+  footer ul{
+    display: flex;
+
+    justify-content: center;
+  }
+
+  footer ul li{
+    margin: 15px;
+    list-style-type: none;
+  }
+
+  
+  

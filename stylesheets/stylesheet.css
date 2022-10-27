@@ -1,12 +1,37 @@
-body {
+body{
     display: grid;
-    /* display: flex;
-    flex-wrap: wrap; */
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    
 }
+
+header {
+    background-color: lightblue;
+    
+    }
+main {
+    background-color: gray;
+    
+    
+}
+      
+nav {
+    background-color: teal;
+    }
+aside {
+    background-color: green;
+    }
+footer {
+    background-color: pink;
+    } 
+      
  
- .container{
+ /* .container{
     background-color: dodgerblue;
-    display: grid;
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap; */
     /* grid-template-columns: 200px 200px; */
     /* grid-template-columns: 100px 1fr 2fr;
     grid-template-rows: 250px;
@@ -16,18 +41,21 @@ body {
     align-items: center;
     flex-direction: row; */
 
-flex for h1 
-grid for rest
+/* flex for h1 
+grid for rest */
 
-}
+/* } */
 
-.container div{
+/* .container div{
     background-color: lightgray;
     margin: 10px;
     padding: 20px;
+    flex-grow: 1;
+    flex-basis: 100px;
+    flex-shrink: 0;
     /* flex-basis: 300px;
     flex-grow: 1; */
-}
+
 
 /* .container_one{
     /* flex-shrink: 2; 
@@ -48,52 +76,52 @@ grid for rest
     grid-row: 1/2;
 }  */
 
-p{
+/* p{
     background-color: red;
 }
 
 header {
     background-color: lightblue;
-    /* flex-basis: 100%; */
+    /* flex-basis: 100%;
   }
 main {
     background-color: gray;
     /* flex-basis: 500px;
     flex-grow: 1;
     order: 2; */
-  }
+  /* } */
   
-nav {
-    background-color: teal;
+/* nav { */
+    /* background-color: teal; */
     /* flex-basis: 200px;
-    flex-grow: 1; */
-    /* order: 1; */
+    flex-grow: 1; 
+    /* order: 1; 
   }
 aside {
     background-color: green;
     /* flex-basis: 200px;
     flex-grow: 1;
     order: 3; */
-  }
-footer {
-    background-color: pink;
+  /* } */
+/* footer { */
+    /* background-color: pink; */
     /* flex-basis: 100%;
     justify-content: center;
     order: 4;
     grid-column: 1/-1; */
     
-  } 
+  
 
-footer ul{
+/* footer ul{ */
     /* display: flex;
 
     justify-content: center; */
-  }
+  
 
-footer ul li{
+/* footer ul li{
     margin: 15px;
     list-style-type: none;
-  }
+  } */
 
   
   
